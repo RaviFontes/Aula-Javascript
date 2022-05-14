@@ -86,7 +86,16 @@ document.write("<p><strong>" + "hoje é: </strong>" + diaSemana[xDia]);
 document.write("<p><strong>" + "O prato do dia é</strong>: " + pratoDoDia[xDia]);
 document.write("<p>" + "O preço do prato do dia é: " + precoDoPrato[xDia]);
 */
-
+/*
 for(i=1;i<5;i++){
     document.write("Esta é a linha ",i,"<br>");
 }
+*/
+
+valor =new Array(3,2,4,1,5);
+i=0;
+total = 0;
+while (total<10) {
+    total+=valor[i];i++;
+}
+document.write("Total= " +total); 
