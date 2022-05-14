@@ -49,4 +49,44 @@ document.write("<p>" + c +"</p>");
 document.write("<p>" + d +"</p>");
 document.write("<p>" + e +"</p>");
 */ 
+/*
+hoje=new Date();
+xDia=hoje.getDay();
+pratoDoDia =new Array(7);
+diaSemana = new Array(7);
+precoDoPrato = new Array(7);
 
+diaSemana[0] = "Domingo";
+diaSemana[1] = "Segunda-Feira";
+diaSemana[2] = "Terça-feira";
+diaSemana[3] = "Quarta-feira";
+diaSemana[4] = "Quinta-feira";
+diaSemana[5] = "Sexta-feira";
+diaSemana[6] = "Sábado";
+//pratos do dia 
+pratoDoDia[0] = "Lazanha";
+pratoDoDia[1] = "Virdo a Paulista";
+pratoDoDia[2] = "Carne de Panela";
+pratoDoDia[3] = "Feijoada";
+pratoDoDia[4] = "Arroz de forno";
+pratoDoDia[5] = "bife com Batata";
+pratoDoDia[6] = "Feijoada";
+//preço dos pratos 
+precoDoPrato[0] = "R$ 16.50";
+precoDoPrato[1] = "R$ 19.90";
+precoDoPrato[2] = "R$ 15.00";
+precoDoPrato[3] = "R$ 18.00";
+precoDoPrato[4] = "R$ 13.10";
+precoDoPrato[5] = "R$ 16.45";
+precoDoPrato[6] = "R$ 18.05";
+
+
+document.write("O número da semana é: " + (xDia+1));
+document.write("<p><strong>" + "hoje é: </strong>" + diaSemana[xDia]);
+document.write("<p><strong>" + "O prato do dia é</strong>: " + pratoDoDia[xDia]);
+document.write("<p>" + "O preço do prato do dia é: " + precoDoPrato[xDia]);
+*/
+
+for(i=1;i<5;i++){
+    document.write("Esta é a linha ",i,"<br>");
+}
